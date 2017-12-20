@@ -31,7 +31,8 @@ namespace speichern_lesen
                 {
                     Console.WriteLine("Tödlich ist: " + item);
                     Console.WriteLine("   ");
-                    Console.WriteLine("");
+                    Console.WriteLine("   ");
+                    Console.WriteLine(""); Console.WriteLine("");
                 }
             }
 
