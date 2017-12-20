@@ -19,6 +19,8 @@ namespace speichern_lesen
             //{
             //    Console.WriteLine(item);
             //}
+            //neue version ///
+            //
 
             string[] haustier = zeilen[0].Split(',');
             string[] toedlich = zeilen[1].Split(',');
@@ -28,6 +30,7 @@ namespace speichern_lesen
                 if (toedlich.Contains(item))
                 {
                     Console.WriteLine("Tödlich ist: " + item);
+                    Console.WriteLine("   ");
                 }
             }
 
